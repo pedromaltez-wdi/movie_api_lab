@@ -1,0 +1,25 @@
+body {
+	width:600px;
+	background: #E1CAAB;
+	color: #012326;
+}
+
+h1 {
+	position: relative;
+	text-align: center;
+}
+
+
+
+a {
+	color: #17455C;
+}
+
+a:hover {
+	color: #FE8333;
+	background-color: #FA4913;
+}
+
+.movie_search_bar {
+	float: right;
+}

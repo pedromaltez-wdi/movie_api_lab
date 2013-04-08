@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Movie API Website</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>Movie Search</h1>
+			<div class="site_bar">
+				<a href="/">Home</a>
+				<a href="/about">About</a>
+				<a href="/faq">FAQ</a>
+				<a href="/movie">test movie page</a>
+				<div class"movie_search_bar">
+					<form action="/movie" method="get">
+						<input type="text" name="title" placeholder="Movie Title">
+						<input type="submit" value="Go">
+					</form>
+				</div> <!-- movie_search_bar -->
+			</div> <!-- site_bar -->
+			<div class="dynamic_content">
+				<%= yield %>
+			</div>
+		</div> <!-- container -->
+	</body>
+</html>
+
+
+
+I put the 'movie_result.erb' content in here instead.
